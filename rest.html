@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="rest.css">
+</head>
+<body>
+    <!-- En-tête -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#rest">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#text-center">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#propos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contacte">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- Section héros -->
+  <div id="rest" class="rest">
+    <h1 class="titre">Bienvenue au Restaurant</h1>
+    <button class="bts">Réservez une table</button>
+  </div>
+  <!--menu de restaurant-->
+  <div class="container ">
+    <h2 id="text-center" class="text-center">Notre Menu</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./r1.png" class="card-img-top" alt="Plat 1">
+          <div class="card-body">
+            <h5 class="card-title">Plat 1</h5>
+            <p class="card-text">Épaule d'agneau entière rôtie au four</p>
+            <p class="text-primary">Prix : 20€</p>
+            <button class="product-button">Ajouter le plat</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./r22.png" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Plat 2</h5>
+            <p class="card-text">Le vrai coulant au chocolat</p>
+            <p class="text-primary">Prix : 25€</p>
+            <button class="product-button">Ajouter le plat</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./r3.png" class="card-img-top" alt="Plat 3">
+          <div class="card-body">
+            <h5 class="card-title">Plat 3</h5>
+            <p class="card-text">Brick au thon et au fromage</p>
+            <p class="text-primary">Prix : 30€</p>
+            <button class="product-button">Ajouter le plat</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+<!--section a propre-->
+<div class="container ">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="./r4..png" class="img-fluid rounded" alt="À propos">
+      </div>
+      <div class="col-md-6">
+        <h2 id="propos" class="propos">À propos de nous</h2>
+        <p>le restaurant propose des plats délicieux et un service chaleureux...</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--formulaire-->
+  <div class="container ">
+    <h2 id="Contacte" class="Contacte">Contactez-nous</h2>
+    <form>
+      <div class="nom">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="email">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="msg">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4"></textarea>
+      </div>
+      <br>
+      <button class="bts">Envoyer</button>
+    </form>
+  </div>
+  <br>
+   <!-- Footer -->
+   <footer class="fo ">
+    <p> Restaurant. Tous droits réservés.</p>
+    <a href="https://www.instagram.com/" class="text-white me-2"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.facebook.com/" class="text-white me-2"><i class="fa fa-facebook"></i></a>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

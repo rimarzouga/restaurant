@@ -1,0 +1,38 @@
+.rest{
+    background-image: url(./r4..png);
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.bts{
+    border: 1px;
+    background-color: green;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+}
+.bts:hover{
+    background-color: red;
+}
+  .product-button{
+    border: 1px;
+    background-color: green;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+  }
+  .product-button:hover{
+    background-color: red;
+}
+
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  
